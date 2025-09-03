@@ -5,3 +5,5 @@ A simple and lightweight Bash script designed to automate the processing of audi
 This script is built using `inotify-tools` to reliably trigger the process only after a file transfer is complete, preventing race conditions and file corruption.
 
 Added lock-file checking to prevent fork-bombing myself 😒
+Logging added to help debug the annoying nonsense
+Added an organiser script; will integrate eventually.
